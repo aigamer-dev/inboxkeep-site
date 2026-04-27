@@ -403,3 +403,38 @@ body {
     font-size: 0.875rem;
     margin-bottom: 40px;
 }
+
+/* New Feature Badge */
+.badge {
+    display: inline-block;
+    background: linear-gradient(135deg, #10B981 0%, #059669 100%);
+    color: white;
+    font-size: 0.625rem;
+    font-weight: 600;
+    padding: 2px 8px;
+    border-radius: 4px;
+    margin-left: 8px;
+    text-transform: uppercase;
+    vertical-align: middle;
+}
+
+.new-feature {
+    border: 2px solid #10B981;
+}
+
+.new-feature .feature-icon {
+    background: linear-gradient(135deg, #10B981 0%, #059669 100%);
+}
+
+/* Version Info */
+.version-info {
+    color: var(--gray);
+    font-size: 0.875rem;
+    margin-top: 16px;
+}
+
+.download-note {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 0.875rem;
+    margin-top: 16px;
+}
